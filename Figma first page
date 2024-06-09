@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOXCARS - Premium Car Dealership</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .car-listing{
+        display: flex;
+    }
+    .car-listing img{
+        display: flex;
+        width: 200px;
+    }
+</style>
+<style>
+    .header nav ul li{
+        display: flex;
+    }
+    .header{
+        display: flex;
+        width: 200px;
+    }
+    .headings{
+        display: flex ;
+        list-style: none;
+        position: relative;
+        display: sp;
+    }
+</style>
+<body>
+
+<!-- Header Section -->
+<header>
+    <nav>
+        <ul class="headings">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#listings">Listings</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#Buy">Buy</a></li>
+            <li><a href="#pages">pages</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Banner Section -->
+<section id="promo-banner">
+    <h1>6,000 Vehicles Available</h1>
+    <p>Premium Brands</p>
+    <button onclick="location.href='#inventory'">View Inventory</button>
+    <button onclick="location.href='#inventory'">contact us</button>
+    <p></p>
+    <button onclick="location.href='#inventory'">suv</button>
+    <button onclick="location.href='#inventory'">Hatchback</button>
+    <button onclick="location.href='#inventory'">Hybrid</button>
+    <p></p>
+    <button onclick="location.href='#brands'">Explore Our premium Brands</button>
+
+    <p>our services</p>
+</section>
+
+<!-- Car Listings Section -->
+<section id="car-listings" class="car-listings">
+    <!-- Car Listing 1 -->
+    <article class="car-listing">
+        <img style="" src="c:\Users\stanley\Bugatti Chiron.jpg" alt="bugatti chiron">
+        <h2>bugatti chiron</h2>
+        <img src="c:\Users\stanley\lucid air.jpg" alt="lucid air">
+        <h2>lucid air</h2>
+        <img src="c:\Users\stanley\lamborghihi urus.jpg" alt="lamborghini urus">
+        <h2>lamborghini urus</h2>
+        <img style="" src="c:\Users\stanley\bugatti divo.jpg" alt="bugatti divo">
+        <h2>bugatti divo</h2>
+    </article>
+
+    <!-- Car Listing 2 -->
+    <!-- Repeat for other cars -->
+
+</section>
+
+<!-- Advertisement Section -->
+<section id="advertisement">
+    <img style="width: 400px;" src="c:\Users\stanley\Audi A6 E-Tron.jpg" alt="2023 Audi A6 E-TRON"> 
+    <h2>2023 Audi A6 E-TRON</h2>
+    <p>Get 10% off on car sales with code 'FIRST SALE'!</p>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact-form">
+    <h2>Leave Us A Message</h2>
+    <form action="submit.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="message" placeholder="Your message">
+        <textarea name="contact" placeholder="contact us" rows="4"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>Email: boxcars@gmail.com</p>
+    <p>Phone: 09088704563 or 09123765866</p>
+    <!-- Social media icons -->
+    <div class="social-icons">
+        <a href="#"><img src="c:\Users\stanley\facebook.jpg" alt="Facebook" style="height: 100px;"></a>
+        <a href="#"><img src="c:\Users\stanley\telegram.jpg" alt="telegram" style="height: 100px;"></a>
+    </div>
+</footer>
+
+</body>
+</html>
