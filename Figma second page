@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOXCARS - Car Dealership</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .car {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .car img {
+            max-width: 400px;
+            margin-right: 20px;
+        }
+        .car-info {
+            flex-grow: 1;
+        }
+        .price {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BOXCARS</h1>
+        <p>All</p>
+        <p>Coupe</p>
+        <p>checkout</p>
+        <div class="car">
+            <img src="c:\Users\stanley\lamborghihi urus.jpg" alt="lamborghini urus" style= "height: 300px; width:500px;"></div>
+            <div class="car-info">
+                <h2>lamborghini urus</h2>
+                <p>High-performance sports car with sleek design.</p>
+                <p class="price">price:$550,000</p>
+            </div>
+        </div>
+        <!-- Repeat for other cars -->
+        <!-- Car 2, Car 3, Car 4, Car 5, Car 6 -->
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .payment-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-image {
+            max-width: 300px;
+        }
+        .card-details {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Payment Info</h2>
+        <div class="payment-info">
+            <div class="card-details">
+                <p>payment methods are below:</p> 
+                <p>credit card</p> 
+                <p>paypal</p>
+
+                <p>Name on Card: Marcus Timothy</p>
+                <p>Card Number: •••• •••• •••• ••••</p>
+                <label for="expiry-date">Expiration Date:</label>
+                <input type="text" id="expiry-date" value="06/2028">
+                <label for="cvv">CVV:</label>
+                <input type="password" id="cvv" maxlength="3" pattern="[0-9]{3}" title="Enter a valid CVV" required>
+            </div>
+            <p>credit card mode of payment:</p>
+            <img src="c:\Users\stanley\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\8CA8DA41FE1EBC8D3CA31DC14F5FC56C\WhatsApp Image 2024-05-16 at 00.02.31_39c900eb.jpg" alt="Credit/Debit Card" class="card-image">
+        </div>
+        <P>save payment on file</P>
+        <button onclick="pay()" style="height: 70px; width:250px;">Pay Marcus</button>
+    </div>
+    <script>
+        function pay() {
+            // Add payment logic here
+            alert("Payment successful!");
+        }
+    </script>
+</body>
+</html>
